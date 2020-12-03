@@ -1,0 +1,72 @@
+/*Headings*/
+h1 {
+  text-align: center; /*align heading to center*/
+  font-family: 'Press Start 2P', regular; /*font is assigned*/
+  font-size: 34px; /*changes the font size*/
+}
+h2 {
+  text-align: center; /*align heading two to center*/
+  font-family: 'Press Start 2P', regular; /*font is assigned*/
+  font-size: 24px; /*changes the font size*/
+}
+legend {
+  font-family: 'Press Start 2P', regular; /*font family is assigned*/
+  font-size: 18px; /*changes the font size*/
+}
+
+/*navigation bar*/
+table {
+  text-align: center; /*aligns the navigation bar to the center*/
+  margin-left: auto; margin-right: auto;
+  width: 100%; /* sets the width of the table to 100% of the body*/
+  font-family: 'Quicksand', sans-serif; /*font family is assigned*/
+  background-color: #EC7063; /*sets border color to red*/
+}
+th {
+  border-color: #EC7063; /*sets border color to red*/
+  background-color: #D1F2EB; /*sets the background of the table headings to green*/
+}
+
+/*main body*/
+body {
+  width: 90%; /*sets the body to cover 90% of the screen*/
+  margin-left: auto; margin-right: auto; /* centers the website */
+  background-color: #AED6F1; /*sets the background color of the body to blue*/
+
+}
+p {
+  font-family: 'Quicksand', sans-serif; /*font family is assigned*/
+}
+fieldset {
+  background-color: #D1F2EB; /*fieldset background color is set to the color green*/
+  border-color: #EC7063; /*fieldset border color is set to red*/
+  margin-bottom: 15px; /*increases the space between the fieldsets*/
+}
+
+/*lists*/
+li {
+  font-family: 'Quicksand', sans-serif; /*font family is assigned*/
+}
+
+/*links*/
+a:link { text-decoration: none; color: #000000; }
+a:visited { text-decoration: none; color: #000000; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/*images*/
+.categories { width: 200px; } /*changes the size of the images in the category section*/
+.extra {
+  text-align: center;
+  margin-left: auto; margin-right: auto;
+}
+
+/*red bold words*/
+b {
+  color: #EC7063; /*changes bold words to the color red*/
+}
+
+/*footer*/
+footer {
+  text-align: center; /*centers the footer*/
+}
